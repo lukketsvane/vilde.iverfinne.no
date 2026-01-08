@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Vilde Brecke - Psykologhjelp for studenter",
@@ -17,7 +18,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
-  themeColor: "#18181b",
+  themeColor: "#22c55e",
 };
 
 export default function RootLayout({
@@ -31,9 +32,12 @@ export default function RootLayout({
         <link rel="icon" href="/icon-192.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/icon-192.svg" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased min-h-screen flex flex-col">
         <Navigation />
-        {children}
+        <div className="flex-1">
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );
