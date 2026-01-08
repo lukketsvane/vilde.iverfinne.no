@@ -3,7 +3,7 @@ import "./globals.css";
 import Navigation from "./components/Navigation";
 
 export const metadata: Metadata = {
-  title: "Vilde Iver Finne - Psykologhjelp for studenter",
+  title: "Vilde Brecke - Psykologhjelp for studenter",
   description: "Få veiledning og tilbakemelding på oppgaver, eksamensforberedelser og karakterforbedring fra ph.d. i psykologi med sensor-erfaring",
 };
 
