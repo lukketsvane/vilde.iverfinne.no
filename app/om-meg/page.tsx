@@ -1,82 +1,69 @@
 export default function OmMeg() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
+    <main className="min-h-screen bg-green-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div className="mb-8">
-          <h1 className="text-3xl sm:text-4xl font-bold text-zinc-900 mb-4">
-            Om meg
+        <div className="mb-10">
+          <h1 className="text-2xl sm:text-3xl font-normal text-gray-900 mb-2">
+            Vilde Brecke
           </h1>
-          <div className="w-16 h-1 bg-zinc-800 mb-6"></div>
+          <p className="text-green-600 text-base">
+            Ph.d. i psykologi
+          </p>
         </div>
-        
-        <div className="bg-white border border-zinc-200 p-6 sm:p-8">
-          <div className="mb-6">
-            <h2 className="text-xl font-semibold text-zinc-900 mb-3">
-              Vilde Brecke
-            </h2>
-            <p className="text-base text-zinc-700 leading-relaxed mb-3">
-              Ph.d. i psykologi med solid erfaring innen undervisning, veiledning og sensurering.
-            </p>
-          </div>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-zinc-900 mb-2">
-              Utdanning
-            </h3>
-            <ul className="space-y-2 text-zinc-700">
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Ph.d. i psykologi</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Mastergrad i psykologi</span>
-              </li>
-            </ul>
-          </div>
+        <div className="space-y-8">
+          <p className="text-base text-gray-700 leading-relaxed">
+            Jeg er utdannet ph.d. i psykologi med solid erfaring innen undervisning,
+            veiledning og sensurering. I min praksis hjelper jeg studenter med å forbedre
+            sine akademiske ferdigheter og oppnå bedre resultater.
+          </p>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-zinc-900 mb-2">
-              Erfaring
-            </h3>
-            <ul className="space-y-2 text-zinc-700">
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Flere års erfaring som sensor på universitets- og høyskolenivå</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Veiledning av bachelor- og masterstudenter</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Undervisning i ulike psykologifag</span>
-              </li>
-            </ul>
+          <div>
+            <h2 className="text-lg text-gray-900 mb-3">Utdanning</h2>
+            <div className="space-y-2">
+              <div>
+                <p className="text-gray-900">Ph.d. i psykologi</p>
+              </div>
+              <div>
+                <p className="text-gray-900">Mastergrad i psykologi</p>
+              </div>
+            </div>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-zinc-900 mb-2">
-              Kompetanse
-            </h3>
-            <ul className="space-y-2 text-zinc-700">
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Karakterforbedring og eksamensoppfølging</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Oppgaveveiledning og tilbakemelding</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Akademisk skriving og struktur</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-zinc-500 mr-2">•</span>
-                <span>Studieteknikk og læringsstrategier</span>
-              </li>
-            </ul>
+            <h2 className="text-lg text-gray-900 mb-3">Erfaring</h2>
+            <div className="space-y-2">
+              <div>
+                <p className="text-gray-900">Sensor på universitets- og høyskolenivå</p>
+                <p className="text-green-600 text-sm">Flere års erfaring</p>
+              </div>
+              <div>
+                <p className="text-gray-900">Veiledning av studenter</p>
+                <p className="text-green-600 text-sm">Bachelor- og masternivå</p>
+              </div>
+              <div>
+                <p className="text-gray-900">Undervisning</p>
+                <p className="text-green-600 text-sm">Ulike psykologifag</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-lg text-gray-900 mb-3">Kompetanse</h2>
+            <div className="space-y-2">
+              <div>
+                <p className="text-gray-900">Karakterforbedring og eksamensoppfølging</p>
+              </div>
+              <div>
+                <p className="text-gray-900">Oppgaveveiledning og tilbakemelding</p>
+              </div>
+              <div>
+                <p className="text-gray-900">Akademisk skriving og struktur</p>
+              </div>
+              <div>
+                <p className="text-gray-900">Studieteknikk og læringsstrategier</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

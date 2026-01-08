@@ -12,27 +12,27 @@ export default function Navigation() {
     { href: '/', label: 'Hjem' },
     { href: '/om-meg', label: 'Om meg' },
     { href: '/tjenester', label: 'Tjenester' },
-    { href: '/kontakt', label: 'Kontaktinfo' },
+    { href: '/kontakt', label: 'Kontakt' },
   ];
 
   return (
-    <nav className="bg-white border-b border-zinc-200">
+    <nav className="bg-green-500">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-14">
-          <Link href="/" className="text-lg font-semibold text-zinc-900">
+        <div className="flex justify-between items-center h-16">
+          <Link href="/" className="text-lg sm:text-xl font-bold text-white tracking-wide uppercase">
             Vilde Brecke
           </Link>
-          
+
           {/* Desktop navigation */}
-          <div className="hidden md:flex gap-6">
+          <div className="hidden md:flex gap-8">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-zinc-900 ${
+                className={`text-sm font-medium transition-colors ${
                   pathname === item.href
-                    ? 'text-zinc-900'
-                    : 'text-zinc-600'
+                    ? 'text-white'
+                    : 'text-white/80 hover:text-white'
                 }`}
               >
                 {item.label}
@@ -43,7 +43,7 @@ export default function Navigation() {
           {/* Hamburger button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-zinc-600 hover:text-zinc-900"
+            className="md:hidden p-2 text-white hover:text-white/80"
             aria-label="Meny"
           >
             <svg
@@ -73,16 +73,16 @@ export default function Navigation() {
 
         {/* Mobile navigation */}
         {isOpen && (
-          <div className="md:hidden border-t border-zinc-200 py-2">
+          <div className="md:hidden border-t border-white/20 py-2">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className={`block py-2 text-sm font-medium transition-colors hover:text-zinc-900 ${
+                className={`block py-3 text-sm font-medium transition-colors ${
                   pathname === item.href
-                    ? 'text-zinc-900'
-                    : 'text-zinc-600'
+                    ? 'text-white'
+                    : 'text-white/80 hover:text-white'
                 }`}
               >
                 {item.label}
