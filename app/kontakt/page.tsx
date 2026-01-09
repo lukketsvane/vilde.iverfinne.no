@@ -31,10 +31,10 @@ export default function Kontakt() {
             <div>
               <h2 className="text-lg text-gray-900 mb-1">Telefon</h2>
               <a
-                href="tel:+47XXXXXXXX"
+                href="tel:+4748220065"
                 className="text-green-600 hover:text-green-700 transition-colors"
               >
-                +47 XXX XX XXX
+                +47 48 22 00 65
               </a>
               <p className="text-gray-500 text-sm mt-1">
                 Hverdager 09:00-17:00
