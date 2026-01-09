@@ -1,14 +1,27 @@
+import Image from "next/image";
+
 export default function OmMeg() {
   return (
-    <main className="min-h-screen bg-green-50">
+    <main className="min-h-screen bg-sky-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div className="mb-10">
-          <h1 className="text-2xl sm:text-3xl font-normal text-gray-900 mb-2">
-            Vilde Brecke
-          </h1>
-          <p className="text-green-600 text-base">
-            Ph.d. i psykologi
-          </p>
+        <div className="mb-10 flex flex-col sm:flex-row sm:items-start gap-6">
+          <div className="flex-shrink-0">
+            <Image
+              src="https://i.ibb.co/Zzj1jL3W/IMG-8290.jpg"
+              alt="Vilde Brecke"
+              width={200}
+              height={250}
+              className="object-cover"
+            />
+          </div>
+          <div>
+            <h1 className="text-2xl sm:text-3xl font-normal text-gray-900 mb-2">
+              Vilde Brecke
+            </h1>
+            <p className="text-blue-600 text-base">
+              Ph.d. i psykologi
+            </p>
+          </div>
         </div>
 
         <div className="space-y-8">
@@ -35,15 +48,15 @@ export default function OmMeg() {
             <div className="space-y-2">
               <div>
                 <p className="text-gray-900">Sensor på universitets- og høyskolenivå</p>
-                <p className="text-green-600 text-sm">Flere års erfaring</p>
+                <p className="text-blue-600 text-sm">Flere års erfaring</p>
               </div>
               <div>
                 <p className="text-gray-900">Veiledning av studenter</p>
-                <p className="text-green-600 text-sm">Bachelor- og masternivå</p>
+                <p className="text-blue-600 text-sm">Bachelor- og masternivå</p>
               </div>
               <div>
                 <p className="text-gray-900">Undervisning</p>
-                <p className="text-green-600 text-sm">Ulike psykologifag</p>
+                <p className="text-blue-600 text-sm">Ulike psykologifag</p>
               </div>
             </div>
           </div>
