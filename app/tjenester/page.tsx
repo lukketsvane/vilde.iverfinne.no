@@ -1,12 +1,12 @@
 export default function Tjenester() {
   return (
-    <main className="min-h-screen bg-green-50">
+    <main className="min-h-screen bg-sky-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="mb-10">
           <h1 className="text-2xl sm:text-3xl font-normal text-gray-900 mb-2">
             Tjenester
           </h1>
-          <p className="text-green-600 text-base">
+          <p className="text-blue-600 text-base">
             Veiledning og hjelp for psykologistudenter
           </p>
         </div>
@@ -14,7 +14,7 @@ export default function Tjenester() {
         <div className="space-y-8">
           <div>
             <h2 className="text-lg text-gray-900 mb-1">Oppgaveveiledning</h2>
-            <p className="text-green-600 text-sm mb-3">
+            <p className="text-blue-600 text-sm mb-3">
               Bachelor- og masteroppgaver
             </p>
             <p className="text-gray-700 text-base leading-relaxed mb-3">
@@ -30,7 +30,7 @@ export default function Tjenester() {
 
           <div>
             <h2 className="text-lg text-gray-900 mb-1">Eksamensforberedelser</h2>
-            <p className="text-green-600 text-sm mb-3">
+            <p className="text-blue-600 text-sm mb-3">
               Målrettet eksamensstøtte
             </p>
             <p className="text-gray-700 text-base leading-relaxed mb-3">
@@ -46,7 +46,7 @@ export default function Tjenester() {
 
           <div>
             <h2 className="text-lg text-gray-900 mb-1">Karakterforbedring</h2>
-            <p className="text-green-600 text-sm mb-3">
+            <p className="text-blue-600 text-sm mb-3">
               Forstå vurderingskriteriene
             </p>
             <p className="text-gray-700 text-base leading-relaxed mb-3">
@@ -62,7 +62,7 @@ export default function Tjenester() {
 
           <div>
             <h2 className="text-lg text-gray-900 mb-1">Studieteknikk</h2>
-            <p className="text-green-600 text-sm mb-3">
+            <p className="text-blue-600 text-sm mb-3">
               Effektive læringsstrategier
             </p>
             <p className="text-gray-700 text-base leading-relaxed mb-3">
@@ -80,7 +80,7 @@ export default function Tjenester() {
         <div className="mt-10">
           <a
             href="/kontakt"
-            className="inline-block bg-green-500 text-white px-6 py-3 font-medium text-base hover:bg-green-600 transition-colors"
+            className="inline-block bg-blue-600 text-white px-6 py-3 font-medium text-base hover:bg-blue-700 transition-colors"
           >
             Ta kontakt for mer informasjon
           </a>
